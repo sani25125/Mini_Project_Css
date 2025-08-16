@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.outerbox {
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    background-color: #01082d;
+    color: whitesmoke;
+}
+
+.header {
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    letter-spacing: 2px;
+}
+
+.navigation {
+    position: fixed;
+    top: 50px;
+    left: 400px;
+}
+
+#name {
+    letter-spacing: 2px;
+    color: #266CA9;
+    font-weight: bold;
+
+}
+
+h3 {
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+
+#work {
+    color: #ade1fb;
+}
+
+.btn {
+    border: 1px solid black;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 10px 7px; 
+    padding: 10px 10px; 
+}
+
+.btn a {
+    padding: 10px 30px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: "Roboto", sans-serif;
+}
+
+span {
+    color: aqua;
+}
+
+.photo {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background: url(photo2.png);
+    background-size: cover;
+    position: absolute;
+    left: 900px;
+    top: 150px;
+
+}
+
+.icon {
+    border: 1px solid black;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 30px;
+    position: absolute;
+    top: 200px;
+    left: 9px;
+}
+
+.icon i {
+    margin-right: 10px;
+    padding: 20px 5px;
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.disc {
+    height: 300px;
+    width: 600px;
+    position: absolute;
+    left: 200px;
+    top: 220px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.dbtn {
+    border-radius: 20px;
+    margin: 10px 10px;
+    padding: 10px 15px;
+    background-color: #0F2573;
+    box-shadow: 2px 2px 2px aqua;
+    color: whitesmoke;
+    font-size: 14px;
+}
+
+.dbtn:hover {
+    box-shadow: 4px 4px 3px aqua;
+    font-size: 15px;
+}
+
+.icon i:hover {
+    font-size: 22px;
+    opacity: 1;
+    color: aqua;
+}
+
+.btn a:hover {
+    text-decoration: aqua underline;
+    color: aqua;
+    font-size: 18px;
+    font-weight: 600;
+}
